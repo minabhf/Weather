@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#ff1ba1ee"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/cityText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Shiraz,IR"
+        android:layout_centerHorizontal="true"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"/>
+
+    <ImageView
+       android:id="@+id/thumbnailIcon"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/cityText"
+        android:layout_marginTop="10dp"
+        android:background="#ffffff"/>
+
+    <TextView
+        android:id="@+id/tempText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cityText"
+        android:layout_centerHorizontal="true"
+        android:text="12 Deg"
+        android:textColor="#ffffff"
+        android:textSize="42sp"
+        android:textStyle="normal"/>
+
+    <TextView
+        android:id="@+id/windText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/thumbnailIcon"
+        android:layout_marginTop="30dp"
+        android:text="Wind"
+        android:textColor="#ffffff"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/cloudText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/windText"
+        android:layout_marginTop="5dp"
+        android:text="Cloud"
+        android:textColor="#ffffff"
+        android:textSize="16sp"/>
+    
+    <TextView
+        android:id="@+id/pressureText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cloudText"
+        android:layout_marginTop="5dp"
+        android:text="Pressure"
+        android:textColor="#ffffff"
+        android:textSize="16sp"/>
+    
+    <TextView
+        android:id="@+id/humidText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pressureText"
+        android:layout_marginTop="5dp"
+        android:text="Humidity"
+        android:textColor="#ffffff"
+        android:textSize="16sp"/>
+    
+    <TextView
+        android:id="@+id/riseText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/humidText"
+        android:layout_marginTop="5dp"
+        android:text="Sunrise"
+        android:textColor="#ffffff"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/setText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/riseText"
+        android:layout_marginTop="5dp"
+        android:text="Sunset"
+        android:textColor="#ffffff"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/updateText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/setText"
+        android:layout_marginTop="5dp"
+        android:text="last Update"
+        android:textColor="#ffffff"
+        android:textSize="16sp"/>
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
